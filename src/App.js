@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/cards/Card';
+import Gallary from './components/gallary/Gallary';
+// import Currency from './components/currencyConvertor/Currency';
+// import InputBox from './components/currencyConvertor/InputBox';
+// import PasswordGenerator from './components/passwordGenerator/PasswordGenerator';
+
 
 function App() {
+      // const fetchdata=fetch("http://localhost:3000/restaurants")
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <PhoneVerification/> */}
+      {/* <Card/> */}
+      {/* <PasswordGenerator/> */}
+      {/* <InputBox/> */}
+      <Gallary/>
+
+       
     </div>
   );
 }
